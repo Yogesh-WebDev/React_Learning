@@ -23,7 +23,7 @@ class MoviesTable extends Component {
           onClick={() => this.props.onDelete(movie)}
           className='btn btn-danger btn-sm'
         >
-          Delete
+        <i className="fa fa-trash" aria-hidden="true"></i>   Delete
         </button>
       ),
     },
